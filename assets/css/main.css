@@ -155,8 +155,66 @@ h2 {
     color: white;
 }
 
+/* Home header */
+
+.homepage-container {
+    height: 100vh;
+    max-width: 100%;
+    background: url('../images/m3dl3y.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.border {
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.homepage-header {
+    background-color: transparent;
+}
+
+.homepage-header h1 {
+    color: white;
+    margin-bottom: 30px;
+    color: white;
+    font-family: "exquisite_corpseregular";
+    font-size: 100px;
+}
+
+
+/* Block Devivders */
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #444;
+}
+
+.block-divider--white {
+    background-color: #ffffff;
+}
+
+/* Media Queries */
+
+@media (max-width: 500px) {
+    .hideme {
+        display: none
+    }
+}
+
 @media (max-width: 768px) {
     .padding-btm {
         margin-top: 0px;
     }
 }
+
+
+
