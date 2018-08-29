@@ -1,0 +1,162 @@
+/* Custom Font */
+
+@font-face {
+    font-family: 'exquisite_corpseregular';
+    src: url('../fonts/exquisite_corpse-webfont.woff2') format('woff2'),
+    url('../fonts/exquisite_corpse-webfont.woff') format('woff'),
+    url('../fonts/exquisite_corpse-webfont.ttf') format('truetype'),
+    url('../fonts/exquisite_corpse-webfont.svg#exquisite_corpseregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Base style */
+
+:before,
+:after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fafafa;
+}
+
+h1 {
+    font-size: 72px;
+    color: white;
+    text-align: center;
+}
+
+h4 {
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+    line-height: 1.5;
+}
+
+h2 {
+    font-size: 63px;
+}
+
+/* Theme styles */ 
+
+.strong {
+    font-weight: bold; 
+}
+
+/* Navbar */
+
+.alert {
+    position: absolute;
+    left: 0;
+    display: none;
+}
+
+.alert Div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #ffd400;
+}
+
+.padding-btm {
+    margin-top: 15px;
+}
+
+.alert-container .col-xs-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar {
+    margin-bottom: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, .7);
+    border: 0;
+}
+
+.navbar-default .navbar-collapse {
+    border-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+    border: 0;
+}
+
+.navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.navbar .navbar-brand {
+    font-weight: 0;
+    font-size: 2.4em;
+    color: white;
+    font-family: 'exquisite_corpseregular';
+}
+
+.navbar .navbar-brand:link {
+    color: white;
+}
+
+.navbar .navbar-brand:visited {
+    color: white;
+}
+
+.navbar .navbar-brand:hover {
+    color: white;
+}
+
+.navbar .navbar-brand:focus {
+    color: white;
+}
+
+.navbar .navbar-brand:active {
+    color: white;
+}
+
+.navbar-default .navbar-nav a {
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    color: white;
+    background: transparent;
+}
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+    color: white;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #ffffff9 !important;
+}
+
+.navbar-btn {
+    border: 0;
+    width: 100px;
+    background-color: #f05f40;
+    color: white;
+}
+
+.navbar-btn:hover {
+    background-color: #df4929;
+    border-color: #df4929;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .padding-btm {
+        margin-top: 0px;
+    }
+}
