@@ -12,6 +12,29 @@ skills that I have learnt so far by creating them a website that they would of n
 
 ## Getting Started
 
+### Prerequisites
+
+This site should be fully functional without any local files needed to be downloaded all frameworks and scripts used are loaded via an approved CDN. 
+
+
+## External sites used 
+
+* [Bootstrap](https://getbootstrap.com/docs/4.1/getting-started/introduction/) - The web framework used
+* [W3 Schools](https://www.w3schools.com/html/default.asp) - Help & tips
+* [Font Awesome](https://www.bootstrapcdn.com/fontawesome/) - Icons
+
+
+## Frameworks used 
+
+* [Bootstrap 3.3.7] (https://getbootstrap.com/)
+* [Font Awesome 4.7.0] (https://fontawesome.com/how-to-use/on-the-web/setup/getting-started?using=web-fonts-with-css)
+* [JQuery 3.2.1] (https://jquery.com/download/)
+
+## Custom Fonts 
+
+I have created custom fonts using @facefonts CSS 'Exquisite Corpse' used to keep original band branding.
+
+# Add scroll to top button
 
 ## Versioning
 
