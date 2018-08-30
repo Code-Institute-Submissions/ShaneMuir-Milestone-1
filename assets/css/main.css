@@ -79,6 +79,7 @@ h2 {
     z-index: 1;
     background-color: rgba(0, 0, 0, .7);
     border: 0;
+    border-radius: 0;
 }
 
 .navbar-default .navbar-collapse {
@@ -218,6 +219,7 @@ blockquote.quote {
     border: 0;
 }
 
+
 /* Footer */
 
 .general-sub {
@@ -300,6 +302,59 @@ p a i:hover {
 
 .copyright {
     background-color: #333333;
+}
+
+.ytsub {
+    margin-top: -3px;
+}
+
+/* Scroll Up */
+
+.scrolltop {
+    display: none;
+    width: 100%;
+    margin: 0 auto;
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+}
+
+.scroll {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    background: #b2b2b2;
+    background: rgba(178, 178, 178, 0.7);
+    padding: 6px;
+    text-align: center;
+    margin: 0 0 0 0;
+    cursor: pointer;
+    transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.scroll:hover {
+    background: rgba(178, 178, 178, 1.0);
+    transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.scroll:hover .fa {
+    padding-top: -10px;
+}
+
+.scroll .fa {
+    font-size: 30px;
+    margin-top: -5px;
+    margin-left: 1px;
+    transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
 }
 
 
