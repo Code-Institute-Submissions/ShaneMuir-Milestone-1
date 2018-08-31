@@ -52,17 +52,67 @@
     </nav>
 
     <!-- Header Image and overlay -->
-    <div class="container-fluid homepage-container">
+    <div class="container-fluid contact-container">
         <div class="row">
             <div class="col-xs-12">
-                <section class="homepage-header text-center">
-                    <h1 class="hideme border">M3DL3Y</h1>
-                    <hr class="block-divider block-divider--white hideme">
-                    <p class="lead  border">Keep up to date with all our latest music, videos and madness!</p>
+                <section class="header text-center">
+                    <h1 class="border">M3DL3Y</h1>
+                    <hr class="block-divider block-divider--white">
+                    <p class="lead  border">Use the form below to get in touch!</p>
                 </section>
             </div>
         </div>
     </div>
+    
+    
+    <!-- Contact form -->
+    <section class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="page-header">
+                    <h2>Contact Us</h2>
+                    <hr class="block-divider block-divider--short">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <div class="container-fluid">
+        <div class="row contact-form">
+            <form id="myForm" onsubmit="return sendMail(this);" method="POST">
+                <h4 class="text-center">We'd love to hear from you!</h4>
+        </div>
+        <div class="row input-container">
+            <div class="col-xs-12">
+                <div class="styled-input wide">
+                    <input type="text" name="name" required />
+                    <label>Name</label>
+                </div>
+            </div>
+            <div class="col-sm-12">
+                <div class="styled-input wide">
+                    <input type="text" name="email" required />
+                    <label>Email</label>
+                </div>
+            </div>
+            <div class="col-xs-12">
+                <div class="styled-input wide">
+                    <textarea name="message" required></textarea>
+                    <label>Message</label>
+                </div>
+            </div>
+            <div class="col-xs-12">
+                <button type="submit" class="btn-lrg submit-btn">Send Message</button>
+            </div>
+              
+        </div>
+          </form>
+    </div>
+    </div>
+
+
 
 
 
