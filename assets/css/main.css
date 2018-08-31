@@ -164,7 +164,7 @@ h2 {
 .homepage-container {
     height: 100vh;
     max-width: 100%;
-    background: url('../images/m3dl3y.jpg') no-repeat center center fixed;
+    background: url('../images/headers/m3dl3y.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -217,6 +217,32 @@ blockquote.quote {
     width: 100%;
     height: 380px;
     border: 0;
+}
+
+/* Music */
+
+.embeds .embed iframe {
+    border: 0;
+    height: 80px;
+    width: 100%;
+}
+
+.music-container {
+    height: 100vh;
+    max-width: 100%;
+    background: url('../images/headers/music-header.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.embeds {
+    width: 100%;
 }
 
 
@@ -385,3 +411,4 @@ p a i:hover {
         margin-top: 0px;
     }
 }
+

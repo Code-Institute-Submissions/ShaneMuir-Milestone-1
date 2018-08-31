@@ -34,7 +34,11 @@ This site should be fully functional without any local files needed to be downlo
 
 I have created custom fonts using @facefonts CSS 'Exquisite Corpse' used to keep original band branding.
 
-# Add scroll to top button
+## Scripts used
+
+Scroll-up.js - To add scroll to TOP button click. 
+Ticker.js - Adds left scrolling effect to home alert (Replaced html marquee attribute)
+
 
 ## Versioning
 
