@@ -46,6 +46,10 @@ h2 {
     font-weight: bold;
 }
 
+.lead {
+    text-align: center !important;
+}
+
 /* Navbar */
 
 .alert {
@@ -219,6 +223,7 @@ blockquote.quote {
     border: 0;
 }
 
+
 /* Music */
 
 .embeds .embed iframe {
@@ -283,8 +288,6 @@ blockquote.quote {
     background: #2c3e50;
 }
 
-
-
 .pb-row {
     margin-bottom: 10px;
 }
@@ -295,6 +298,35 @@ blockquote.quote {
     color: white;
 }
 
+/* Gallery Page */
+
+.gallery-container {
+    height: 100vh;
+    max-width: 100%;
+    background: url('../images/headers/gallery-header.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.gallary-background {
+    background-color: #fafafa;
+}
+
+.space {
+    padding: 5px;
+    background-color: #fafafa;
+}
+
+.hwimg {
+    width: 300px;
+    height: 250px;
+}
 
 
 /* Footer */
