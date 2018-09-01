@@ -535,6 +535,13 @@ p a i:hover {
     margin-top: -3px;
 }
 
+.ytsub iframe {
+    border: none; 
+    overflow: hidden;
+}
+
+
+
 /* Scroll Up */
 
 .scrolltop {
@@ -601,15 +608,66 @@ p a i:hover {
 
 /* Media Queries */
 
-@media (max-width: 500px) {
-    .hideme {
-        display: none
-    }
-}
-
-@media (max-width: 768px) {
-    .padding-btm {
+@media (max-width: 768px){
+      .padding-btm {
         margin-top: 0px;
     }
 }
 
+@media (max-width: 1024px) {
+      .social-icons a i {
+    position: relative;
+    color: #fff;
+    font-size: 18px;
+    margin: 0 7px;
+    line-height: 40px;
+    text-align: center;
+    width: 40px;
+    height: 58px;
+}
+    .copyright {
+        padding: 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    .page-header h2 {
+        font-size: 50px;
+    }
+
+    .block-divider {
+        height: 3px;
+    }
+
+    .ytsub {
+        padding-left: 110px;
+    }
+
+    .copyright {
+        padding: 5px;
+    }
+
+    .social-icons a i {
+        position: relative;
+        color: #fff;
+        font-size: 18px;
+        margin: 0 7px;
+        line-height: 40px;
+        text-align: center;
+        width: 40px;
+        height: 60px;
+    }
+
+    .general-sub {
+        font-weight: 700;
+        font-size: 22px;
+        color: #fafafa;
+        margin: 15px;
+    }
+
+    .footer-wrapper {
+        padding-top: 0px;
+        color: #fff;
+        background-color: rgba(0, 0, 0, .7);
+    }
+}
