@@ -16,7 +16,6 @@ skills that I have learnt so far by creating them a website that they would of n
 
 This site should be fully functional without any local files needed to be downloaded all frameworks and scripts used are loaded via an approved CDN. 
 
-
 ## External sites used 
 
 * [Bootstrap](https://getbootstrap.com/docs/4.1/getting-started/introduction/) - The web framework used
@@ -38,6 +37,10 @@ I have created custom fonts using @facefonts CSS 'Exquisite Corpse' used to keep
 
 Scroll-up.js - To add scroll to TOP button click. 
 Ticker.js - Adds left scrolling effect to home alert (Replaced html marquee attribute)
+SendMail.js used for contact form 
+
+## Testing deployment
+
 
 
 ## Versioning
