@@ -604,6 +604,19 @@ p a i:hover {
 
 /* Media Queries */
 
+@media (max-width: 400px) {
+    .homepage-container {
+    height: 100vh;
+    background: url(../images/headers/m3dl3y-mobile.jpg) center center no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    justify-content: center;
+    position: relative;
+}
+}
+
 @media (max-width: 768px){
       .padding-btm {
         margin-top: 0px;

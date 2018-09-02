@@ -45,7 +45,13 @@ SendMail.js used for contact form
 
 ## Testing deployment
 
-
+Tested on Chrome
+Tested on IE
+Tested on Samsung S8
+Tested on Samsung S9
+Tested on Iphone
+Tested on Firefox
+Tested on Opera
 
 ## HTML & CSS
 
