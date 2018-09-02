@@ -2,6 +2,8 @@
 
 Throughout this project I will be using everything that I have learnt so far from Code Institue. This project will consist of HTML5, CSS3. (I may add abit of JS)
 
+Please see [Milestone 1 for CodeInstuitute] (https://github.com/ShaneMuir/Milestone-1).
+
 My site is for the purpose of my friends in my town who create their own EDM (Electronic Dance Music). I have decided to go outside the scope a little 
 as this could potentially be a good boilerplate for when they are ready for a website designing.
 
@@ -11,6 +13,8 @@ This website is designed to benefit my two friends from my hometown. They make a
 skills that I have learnt so far by creating them a website that they would of not been able to create without the likes of a web builder. 
 
 ## Getting Started
+
+The website is build using HTML5, CSS3 and Bootstrap framework.   
 
 ### Prerequisites
 
