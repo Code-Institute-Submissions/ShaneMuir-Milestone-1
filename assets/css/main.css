@@ -107,7 +107,6 @@ h2 {
 }
 
 .navbar .navbar-brand {
-    font-weight: 0;
     font-size: 2.4em;
     color: #7300ac;
     font-family: 'exquisite_corpseregular';
@@ -577,9 +576,6 @@ p a i:hover {
     -o-transition: 0.5s;
 }
 
-.scroll:hover .fa {
-    padding-top: -10px;
-}
 
 .scroll .fa {
     font-size: 30px;

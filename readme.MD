@@ -47,6 +47,11 @@ SendMail.js used for contact form
 
 
 
+## HTML & CSS
+
+All my mark up is HTML valid
+All my styling is CSS valid
+
 ## Versioning
 
 I will use [GitHub] for version control.
