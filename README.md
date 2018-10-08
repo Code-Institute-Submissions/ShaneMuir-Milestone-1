@@ -25,7 +25,7 @@ Please note I have insisted for the contrast of the purple to be different as I 
 will be more beneficial to have a higher contrast for readability purposes.
 
 ### Features 
-```
+
 * All the images for this project have been provided by the band, they create all their own artwork.
 
 * Spotify and youtube 1 click follow buttons added for ease of ability to be able to follow the band on their
@@ -57,10 +57,10 @@ the purpose of this project. Fancy box was a improvment to improve the UX for th
 a visitor.
 
 * Contact form - CSS used to add abit of interactivity to the contact page. I have used emailJS for the
-purpose of this contact form.
-```
+purpose of this contact form. 
+
 #### Possible feature to implement 
-```
+
 * Pull soundcloud songs and spotify songs via API GET method, this way when the band update their 
 platforms the updates can be pulled through via the API call rather then keep the embeds up to date.
 
@@ -70,7 +70,9 @@ platforms the updates can be pulled through via the API call rather then keep th
 mailing list for the band to be able to do regular new updates to their subs.
 
 * Instagram photos pull from their instagram account.
-```
+
+* Better form validation.
+
 
 ### Getting Started
 
