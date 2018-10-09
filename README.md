@@ -86,6 +86,8 @@ The site is fully functional without any local files needed to be downloaded all
 used are loaded via an approved CDN. Before deployment the site was tested on several browsers and devices.
 This site is supported all browsers. Check below for tested devices and browsers.
 
+# [Live Demo Here](https://shanemuir.github.io/Milestone-1/)
+
 ### External sites used 
 
 * [Bootstrap](https://getbootstrap.com/docs/4.1/getting-started/introduction/) - The web framework used 
@@ -104,13 +106,17 @@ I have created custom fonts using **@facefonts CSS 'Exquisite Corpse'** used to 
 
 ### Scripts used
 
-* Scroll-up.js - To add scroll to TOP button click. 
+* Scroll-up.js - To add scroll to TOP button click. [Jquery](https://jquery.com/)
 
-* Ticker.js - Adds left scrolling effect to home alert (Replaced html marquee attribute)
+* Ticker.js - Adds left scrolling effect to home alert (Replaced html marquee attribute) [JSFiddle](https://jsfiddle.net/louiswalch/v5sfqx2g/)
 
-* SendMail.js used for contact form. [EmailJS](http://www.emailjs.com/)
+* ~~SendMail.js used for contact form. [EmailJS](http://www.emailjs.com/)~~
 
 * Fancy box - Used to improve UX when viewing the gallery. [Fancybox](https://github.com/fancyapps/fancybox)
+
+* Validate form - Custom made JS script by me to improve form validation. [Javascript](https://www.javascript.com/)
+
+* PHP Mailto script - Custom made by me for the contact form post method. [PHP](http://php.net/)
 
 
 ### Testing before deployment
