@@ -28,6 +28,8 @@ will be more beneficial to have a higher contrast for readability purposes.
 
 * All the images for this project have been provided by the band, they create all their own artwork.
 
+* Homepage ticker - JS fiddle ticker used to show visitors that the band have just released a new EP.
+
 * Spotify and youtube 1 click follow buttons added for ease of ability to be able to follow the band on their
 social platforms.
 
@@ -57,7 +59,7 @@ the purpose of this project. Fancy box was a improvment to improve the UX for th
 a visitor.
 
 * Contact form - CSS used to add abit of interactivity to the contact page. I have used emailJS for the
-purpose of this contact form. 
+purpose of this contact form. UPDATE - I have changed the emailJS to a php mail function.
 
 #### Possible feature to implement 
 
@@ -71,7 +73,7 @@ mailing list for the band to be able to do regular new updates to their subs.
 
 * Instagram photos pull from their instagram account.
 
-* Better form validation.
+* Better form validation. UPDATE - I have added some custom JS to improve form validation.
 
 
 ### Getting Started
@@ -106,9 +108,9 @@ I have created custom fonts using **@facefonts CSS 'Exquisite Corpse'** used to 
 
 * Ticker.js - Adds left scrolling effect to home alert (Replaced html marquee attribute)
 
-* SendMail.js used for contact form 
+* SendMail.js used for contact form. [EmailJS](http://www.emailjs.com/)
 
-* Fancy box - Used to improve UX when viewing the gallery.[Fancybox](https://github.com/fancyapps/fancybox)
+* Fancy box - Used to improve UX when viewing the gallery. [Fancybox](https://github.com/fancyapps/fancybox)
 
 
 ### Testing before deployment

@@ -37,6 +37,8 @@
     </script>
     <!-- Custom Style -->
     <link rel="stylesheet" href="assets/css/main.min.css" type="text/css" />
+
+
 </head>
 
 <body>
@@ -85,7 +87,7 @@
     </header>
 
 
-    <!-- Contact form -->
+    <!-- Contact form header -->
     <section class="container-fluid">
         <div class="row">
             <div class="col-xs-12">
@@ -98,40 +100,27 @@
     </section>
 
 
-
-    <main class="container-fluid">
+    <!-- Contact form -->
+    <main class="container contact-form">
         <div class="row contact-form">
-            <form id="myForm" onsubmit="return sendMail(this);" method="POST">
-                <h4 class="text-center">We'd love to hear from you!</h4>
-                <div class="row input-container">
-                    <div class="col-xs-12">
-                        <div class="styled-input wide">
-                            <input type="text" name="name" required />
-                            <label>Name</label>
-                        </div>
-                    </div>
-                    <div class="col-sm-12">
-                        <div class="styled-input wide">
-                            <input type="text" name="email" required />
-                            <label>Email</label>
-                        </div>
-                    </div>
-                    <div class="col-xs-12">
-                        <div class="styled-input wide">
-                            <textarea name="message" required></textarea>
-                            <label>Message</label>
-                        </div>
-                    </div>
-                    <div class="col-xs-12">
-                        <button type="submit" class="btn-lrg submit-btn">Send Message</button>
-                    </div>
-                </div>
-            </form>
+            <div class="col-xs-12">
+                <form action="contact.php" onsubmit="return validateForm();" method="post" name="myForm" id="contactForm">
+                    <h4 class="text-center">We'd love to hear from you!</h4>
+
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your name..">
+
+                    <label for="email">Your Email</label>
+                    <input type="text" id="email" name="email" placeholder="Your email..">
+
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
         </div>
-
-
-
-
+        </div>
     </main>
 
 
@@ -196,8 +185,8 @@
     <script src="https://apis.google.com/js/platform.js"></script>
     <!-- Scroll to Top Script -->
     <script src="assets/js/scrollUp.min.js"></script>
-    <!-- Send Email -->
-    <script src="assets/js/sendMail.min.js"></script>
+    <!-- Form Validation -->
+    <script src="assets/js/validateForm.min.js"></script>
 
 
 </body>
