@@ -61,6 +61,8 @@ a visitor.
 * Contact form - CSS used to add abit of interactivity to the contact page. I have used emailJS for the
 purpose of this contact form. UPDATE - I have changed the emailJS to a php mail function.
 
+* Wireframing was done with the band present I just did some mock ups on paper of how the band wanted their site to generally look and feel. 
+
 #### Possible feature to implement 
 
 * Pull soundcloud songs and spotify songs via API GET method, this way when the band update their 
